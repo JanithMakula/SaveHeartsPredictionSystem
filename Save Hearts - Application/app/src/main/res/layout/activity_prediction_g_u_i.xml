@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img10"
+    tools:context=".PredictionGUI">
+
+    <EditText
+        android:id="@+id/cheek"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="264dp"
+        android:ems="10"
+        android:hint="cheek "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/eye"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="304dp"
+        android:ems="10"
+        android:hint="eye "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ear"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="344dp"
+        android:ems="10"
+        android:hint="ear "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/thal"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="380dp"
+        android:ems="10"
+        android:hint="thal "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/thalach"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="220dp"
+        android:ems="10"
+        android:hint="thalach "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/exang"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="180dp"
+        android:ems="10"
+        android:hint="exang "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/oldpeak"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="492dp"
+        android:ems="10"
+        android:hint="oldpeak "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/slope"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="456dp"
+        android:ems="10"
+        android:hint="slope "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ca"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:hint="ca "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/restecg"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="260dp"
+        android:ems="10"
+        android:hint="restecg "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName2"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="59dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/cardo_bold"-->
+<!--        android:inputType="numberDecimal"-->
+<!--        android:text="Get Your Prediction"-->
+<!--        android:textColor="#FFC107"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="398dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Please Fill this form to calculate your prediction."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.kusu.loadingbutton.LoadingButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Predict"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:onClick="Main"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="492dp"
+        android:ems="10"
+        android:hint="age"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cp"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:hint="cp "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/chol"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="340dp"
+        android:ems="10"
+        android:hint="chol "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/fbs"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:hint="fbs "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/trestbps"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="380dp"
+        android:ems="10"
+        android:hint="trestbps "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/sex"
+        android:layout_width="114dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="456dp"
+        android:ems="10"
+        android:hint="sex "
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

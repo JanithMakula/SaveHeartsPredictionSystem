@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326278650155",
+    "project_id": "prediction-system-cfd8d",
+    "storage_bucket": "prediction-system-cfd8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326278650155:android:e8019a3a9de92fb8880d6e",
+        "android_client_info": {
+          "package_name": "com.example.heart_disease_prediction_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326278650155-b7b87atle2hh4fn06av95mcqvmq5tpgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEGbNhyKJd43MqPncGF5yE5nQ09wz0ZME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326278650155-b7b87atle2hh4fn06av95mcqvmq5tpgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
